@@ -37,8 +37,8 @@ function App() {
         // eslint-disable-next-line no-unused-vars
         const response = await postToNotion(
           book,
-          process.env.REACT_APP_NOTION_TOKEN,
-          process.env.REACT_NOTION_DATABASE_ID
+          process.env.REACT_APP_ntn_496616642205msJgFYNUw2ABKB6xmSnKPNH2qT9vieeenL,
+          process.env.REACT_11dc125fef924840a954a24825611e7b
         );
         setShowModal(true);
       } catch (error) {
